@@ -1,0 +1,25 @@
+pimcore:
+    perspectives:
+        definitions:
+
+            Products:
+                iconCls: pimcore_nav_icon_objects
+
+                elementTree:
+                    -
+                        type: customview
+                        position: left
+                        expanded: true
+                        hidden: false
+                        id: products
+
+            Categories:
+                iconCls: pimcore_nav_icon_documents
+
+                elementTree:
+                    -
+                        type: customview
+                        position: left
+                        expanded: true
+                        hidden: false
+                        id: categories

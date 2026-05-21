@@ -1,0 +1,19 @@
+pimcore:
+    custom_views:
+        definitions:
+
+            products:
+                name: products
+                treetype: object
+                rootfolder: /Products
+                classes:
+                    - Product
+                iconCls: pimcore_nav_icon_objects
+
+            categories:
+                name: categories
+                treetype: object
+                rootfolder: /Categories
+                classes:
+                    - Category
+                iconCls: pimcore_nav_icon_objects
