@@ -1,0 +1,2 @@
+doctrine:
+    dbal: { connections: { default: { host: localhost, port: 3306, user: root, password: root, dbname: pimcore, mapping_types: { enum: string, bit: boolean }, server_version: 9.0.1 } } }
